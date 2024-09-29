@@ -1,32 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Login</title>
+    <title>Eu te amo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        header {
+            background-color: #ffe6e6;
+            padding: 20px;
+        }
+        h1 {
+            color: #cc0000;   
+        }
+
+        .photo {
+            width: 300px; /* Defina a largura que deseja */
+            height: auto; /* Mantém a proporção da imagem */
+            border-radius: 10px;
+        }
+
+        .carousel {
+            position: relative;
+            width: 300px;
+            margin: 20px auto;
+        }
+        .carousel img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .carousel .caption {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .carousel .buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .carousel .buttons button {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <div class="main-login">
-        <div class="left-login">
-            <h1>Faça o login<br>E entre para o nosso time</h1>
-            <img src="celular.svg" class="left-login-image" alt="Celular animação">
-        </div>
-        <div class="right-login">
-            <div class="card-login">
-                <h1>LOGIN</h1>
-                <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
-                </div>
-                <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
-                </div>
-                
-            </div>   
+    <header>
+        <h1>História de um romance...</h1>
+    </header>
+    <img src="Julia.jpeg" alt="Julia" class="photo">
+    <p class="introduction">Primeiro, quero apresentar essa garota aqui. Isso, essa mesmo que está aparecendo na tela, ela é minha namorada.</p>
+
+    <p class="introduction">Esse pitelzinho de meio metro irradiando beleza se chama Julia, é uma garota muito linda e divertida. E mesmo apesar de não parecer, é um toquinho de gente kkk.</p>
+    <img src="Dia_parque.jpeg" alt="Foto dela" class="photo">
+    <p class="introduction">Este foi o dia em que eu a vi no parque, extremamente gata e maravilhosa. Lá estava eu jogando um fut de quebrada quando de repente avisto essa moça assistindo ao jogo. Eu tentei me controlar, mas o quanto essa mulher chamou a minha atenção, não está escrito. Tive dificuldade até mesmo para criar isso daqui sem parar por meia hora para admirar as fotos dela.</p>
+
+    <img src="Data_Instagram.jpeg" alt="Foto do Instagram" class="photo">
+    <p class="introduction">Detalhe que não havia dito: Já seguia ela nas redes sociais desde setembro de 2023😮‍💨, fãnzasso, curtia tudo e ela nunca deu um sinal de vida para mim kkkkk</p>
+    
+    <div class="carrossel">
+        <img src="foto_carrossel1.jpeg" alt="Foto 1" class="photo">
+        <img src="foto_carrossel2.jpeg" alt="Foto 2" class="photo">
+        <img src="foto_carrossel3.jpeg" alt="Foto 3" class="photo">
+    </div>
+    <p class="introduction">Mas me diz aí, como não se apaixonar?...</p>
+
+
+    <p class="introduction">Enfim, eu não resisti e sedei aos olhares dessa garota... depois de muito tempo, MUITO TEMPO MESMO, em outro momento ela retornou ao parque, e lá estava eu em uma friaca infeliz jogando futebol.</p>
+    <p class="introduction">Nesse dia ela estava sem óculos, então era minha oportunidade de tirar proveito da miopia dela para enxergar algo atraente em mim kkkkkkkkk</p>
+    <p class="introduction">A partir desse dia começamos a conversar e nos conhecer, uma semana depois já estávamos juntos saindo por aí hahahahahah ainda bem que ela é emocionada igual a mim e não tem medo de demonstrar amor.</p>
+
+    <img src="Sogra.jpeg" alt="Foto da sogra" class="photo">
+    
+    <p class="introduction">Essa é minha sogra, uma pessoa amorosa e muito simpática, adoro passar o tempo conversando com ela, dou boas risadas. Tenho que agradecer muito a ela por ter gerado a Julia, que hoje é o amorzinho da minha vida.</p>
+    <img src="sogro.jpeg" alt="Foto do sogro" class="photo">
+    <p class="introduction">Esse é meu sogro, o cara que eu temia e pensava que seria impossível convencer que a filha dele um dia seria minha mulher kkkkkkk.</p>
+    
+    <img src="Sogro_moto.jpeg" alt="Foto de moto" class="photo">
+    <p class="introduction">E aqui está ele dando um cheiro no meu cangote kkkkkk um cara muito gente boa e muito resenha.</p>
+    
+    <img src="irma.jpeg" alt="Foto da irmã" class="photo">
+    <p class="introduction">Essa é a minha cunhada, gosto de me juntar a ela para tirar onda da cara da Julia hahaha, isso quando tenho a oportunidade, pois normalmente são todos eles que se juntam para tirar onda de mim🤣🤣🤣🤣</p>
+    <p class="introduction">Em resumo, essa é minha segunda família, lugar onde passo por momentos e conversas muito boas, simplesmente adoro estar com todos eles e principalmente, com a branquinha de meio metro chamada Julia.</p>
+
+    
+    <div class="carousel">
+        <img id="carouselImage" src="foto_final1.jpeg" alt="Foto final 1">
+        <div id="carouselCaption" class="caption">Legenda da Foto 1</div>
+        <div class="buttons">
+            <button onclick="prevSlide()">&#10094;</button>
+            <button onclick="nextSlide()">&#10095;</button>
         </div>
     </div>
+    <p class="introduction">Que venham muito mais pela frenteee.</p>
+    <p class="introduction">Te amo meu amor, eu te amo demais ❤️❤️❤️❤️.</p>
+
+    <!-- Adicionando a imagem final -->
+    <img src="Foto_final.jpeg" alt="Foto final" class="final-photo">
+
+
+    <script>
+        let slideIndex = 0;
+const slides = [
+    {src: 'pilota.jpeg', caption: 'Eu te amo, minha pilota ❤️'},
+    {src: 'amor.jpeg', caption: 'Quero poder sempre te fazer feliz'},
+    {src: 'loucura.jpeg', caption: 'Quero estar para sempre junto contigo nas suas loucuras'},
+    {src: 'amando.jpeg', caption: 'Nos amando muito'},
+    {src: 'especial.jpeg', caption: 'Aproveitando nossos momentos especiais🤣'},
+    {src: 'alimentar.jpeg', caption: 'Te alimentando'},
+    {src: 'vaqueira.jpeg', caption: 'Minha vaqueira'},
+    {src: 'ruiva.jpeg', caption: 'Minha ruivinha linda'},
+    {src: 'princesa.jpeg', caption: 'Minha princesa'},
+    {src: 'vida.jpeg', caption: 'Minha vidinha'},
+    {src: 'infinito.jpeg', caption: 'Eu te amo infinitamente'},
+    {src: 'cuidar.jpeg', caption: 'Obrigado por cuidar de mim'},
+    {src: 'carinho.jpeg', caption: 'Obrigado pelo carinho'},
+    {src: 'feliz.jpeg', caption: 'Obrigado por fazer meus dias mais felizes'},
+    {src: 'naves.jpeg', caption: 'Minhas naves'},
+    {src: 'pato.jpeg', caption: 'Te amo pato da vida kkkk'},
+    {src: 'kkkk.jpeg', caption: '🤣'},
+    {src: 'lado.jpeg', caption: 'Espero ter uma vida ao seu lado'},
+    {src: 'anel.jpeg', caption: 'Te amo imensamente, minha princesa❤️❤️'}
+];
+
+
+        function showSlide(n) {
+            const carouselImage = document.getElementById('carouselImage');
+            const carouselCaption = document.getElementById('carouselCaption');
+            carouselImage.src = slides[n].src;
+            carouselCaption.textContent = slides[n].caption;
+        }
+
+        function nextSlide() {
+            slideIndex = (slideIndex + 1) % slides.length;
+            showSlide(slideIndex);
+        }
+
+        function prevSlide() {
+            slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+            showSlide(slideIndex);
+        }
+
+        setInterval(nextSlide, 3000); // Muda de slide a cada 3 segundos
+        showSlide(slideIndex);
+    </script>
 </body>
 </html>
